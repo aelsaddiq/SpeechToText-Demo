@@ -14,7 +14,7 @@ def run_demo(audio_path: str):
 
     print(f"2. Transcribing audio file: {audio_path}")
     # verbose=False keeps the console clean for our custom summary
-    result = model.transcribe(audio_path, verbose=False)
+    result = model.transcribe(audio_path, verbose=False, fp16=False)
 
     print("\n" + "=" * 60)
     print("DEMO RESULTS: SPEECH-TO-TEXT PIPELINE")
