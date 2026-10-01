@@ -1,0 +1,15 @@
+# Virtual environment
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Local audio/video sample files
+*.mp4
+*.wav
+*.m4a
+*.mp3
+!test_memo.mp4
+
+# OS metadata
+.DS_Store
